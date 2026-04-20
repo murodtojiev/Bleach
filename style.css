@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("backround.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /* Matn rangini oq qilamiz */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* h1, p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+} */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: #e0e0e0;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+a {
+    color: #f1a009;
+    /* Distinct Bleach orange/gold color */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ff9d00;
+    text-shadow: 0 0 10px rgba(255, 157, 0, 0.8);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: 1px solid #ff9d00;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.character-title {
+    font-size: 3rem;
+    margin-top: 100px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
